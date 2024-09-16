@@ -1,0 +1,9 @@
+my_pet = Pet("Fluffy", "Cat")
+my_pet.feed(20)
+my_pet.play(30)
+my_pet.status()
+
+if my_pet.is_happy():
+    print(f"{my_pet.name} is happy!")
+else:
+    print(f"{my_pet.name} needs more care!")
